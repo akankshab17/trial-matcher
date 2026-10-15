@@ -37,6 +37,7 @@ docker compose up -d db                    # start Postgres + pgvector
 set -a; source .env; set +a
 .venv/bin/python -m trial_matcher.ingest --max-trials 100   # small ingest; omit flag for all trials
 .venv/bin/python -m trial_matcher.embed_trials --limit 100  # embed trials (default model bge-small); omit --limit for all
+.venv/bin/python -m trial_matcher.search "breast cancer HER2 positive" --age 58 --sex FEMALE   # try hybrid search by hand
 .venv/bin/python -m pytest -m slow                          # also loads the real embedding model (downloads it once)
 .venv/bin/python scripts/criteria_fallback_stats.py         # criteria-splitter fallback rates
 ```
