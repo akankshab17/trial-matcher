@@ -32,3 +32,7 @@ data/
 .DS_Store
 .idea/
 .vscode/
+
+# eval labels are reviewed data, not scratch output
+!evals/*.csv
+!evals/*.json

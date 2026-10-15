@@ -1,0 +1,56 @@
+Retrieval eval: model BAAI/bge-small-en-v1.5, text variant basic
+Relevant = grade >= 2. Profiles scored: 30 of 30 (0 reviewed by a human).
+No relevant trial in the labels (skipped): P26, P27
+
+All profiles
+| method / group           |   n | recall@50 | nDCG@10 | hit@10 | judged@10 |
+|--------------------------|-----|-----------|---------|--------|-----------|
+| fts                      |  28 |     0.830 |   0.470 |  0.857 |      1.00 |
+| vector                   |  28 |     0.827 |   0.544 |  0.857 |      1.00 |
+| hybrid                   |  28 |     0.930 |   0.516 |  0.929 |      1.00 |
+
+Tag: advanced
+| method / group           |   n | recall@50 | nDCG@10 | hit@10 | judged@10 |
+|--------------------------|-----|-----------|---------|--------|-----------|
+| fts                      |  18 |     0.894 |   0.531 |  0.889 |      1.00 |
+| vector                   |  18 |     0.793 |   0.485 |  0.778 |      1.00 |
+| hybrid                   |  18 |     0.924 |   0.509 |  0.944 |      1.00 |
+
+Tag: biomarker
+| method / group           |   n | recall@50 | nDCG@10 | hit@10 | judged@10 |
+|--------------------------|-----|-----------|---------|--------|-----------|
+| fts                      |  14 |     0.840 |   0.435 |  0.786 |      1.00 |
+| vector                   |  14 |     0.881 |   0.514 |  0.786 |      1.00 |
+| hybrid                   |  14 |     0.986 |   0.464 |  0.929 |      1.00 |
+
+Tag: early_stage
+| method / group           |   n | recall@50 | nDCG@10 | hit@10 | judged@10 |
+|--------------------------|-----|-----------|---------|--------|-----------|
+| fts                      |   3 |     0.682 |   0.474 |  1.000 |      1.00 |
+| vector                   |   3 |     0.747 |   0.380 |  1.000 |      1.00 |
+| hybrid                   |   3 |     1.000 |   0.598 |  1.000 |      1.00 |
+
+Tag: first_line
+| method / group           |   n | recall@50 | nDCG@10 | hit@10 | judged@10 |
+|--------------------------|-----|-----------|---------|--------|-----------|
+| fts                      |   7 |     0.752 |   0.433 |  0.714 |      1.00 |
+| vector                   |   7 |     0.867 |   0.639 |  1.000 |      1.00 |
+| hybrid                   |   7 |     0.943 |   0.591 |  0.857 |      1.00 |
+
+Tag: prior_treatment
+| method / group           |   n | recall@50 | nDCG@10 | hit@10 | judged@10 |
+|--------------------------|-----|-----------|---------|--------|-----------|
+| fts                      |  17 |     0.878 |   0.481 |  0.882 |      1.00 |
+| vector                   |  17 |     0.815 |   0.528 |  0.765 |      1.00 |
+| hybrid                   |  17 |     0.908 |   0.473 |  0.941 |      1.00 |
+
+Tag: rare
+| method / group           |   n | recall@50 | nDCG@10 | hit@10 | judged@10 |
+|--------------------------|-----|-----------|---------|--------|-----------|
+| fts                      |   4 |     0.825 |   0.291 |  0.750 |      1.00 |
+| vector                   |   4 |     0.833 |   0.686 |  1.000 |      1.00 |
+| hybrid                   |   4 |     0.950 |   0.461 |  1.000 |      1.00 |
+
+n = profiles scored. judged@10 = share of a method's top 10 that has a label (1.00 = fully judged).
+
+Decision support, not medical advice.

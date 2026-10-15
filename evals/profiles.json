@@ -1,0 +1,373 @@
+[
+ {
+  "id": "P01",
+  "text": "Advanced pancreatic cancer, previously treated with gemcitabine and nab-paclitaxel and now progressing. Still walking and working part-time.",
+  "age": 62,
+  "sex": "MALE",
+  "tags": [
+   "prior_treatment",
+   "advanced"
+  ],
+  "relevant_if": "Metastatic/advanced pancreatic cancer trial open to patients after first-line gemcitabine-based therapy (second line or later).",
+  "not_relevant_if": "Treatment-naive/first-line only, resectable or adjuvant/neoadjuvant, or a different cancer."
+ },
+ {
+  "id": "P02",
+  "text": "Metastatic hormone-receptor-positive, HER2-negative breast cancer that has progressed on letrozole plus palbociclib.",
+  "age": 54,
+  "sex": "FEMALE",
+  "tags": [
+   "prior_treatment",
+   "biomarker",
+   "advanced"
+  ],
+  "relevant_if": "HR+/HER2- advanced breast cancer trial for patients after endocrine therapy plus a CDK4/6 inhibitor.",
+  "not_relevant_if": "First-line only, HER2-positive or triple-negative only, early-stage/adjuvant, or another cancer."
+ },
+ {
+  "id": "P03",
+  "text": "HER2-positive metastatic breast cancer with brain metastases, previously treated with trastuzumab and pertuzumab.",
+  "age": 49,
+  "sex": "FEMALE",
+  "tags": [
+   "prior_treatment",
+   "biomarker",
+   "advanced"
+  ],
+  "relevant_if": "HER2+ metastatic breast cancer trial that allows or targets brain metastases and prior trastuzumab/pertuzumab.",
+  "not_relevant_if": "HER2-negative only, treatment-naive only, excludes brain metastases, early-stage, or another cancer."
+ },
+ {
+  "id": "P04",
+  "text": "Newly diagnosed stage II triple-negative breast cancer. No treatment yet and surgery has not been done.",
+  "age": 41,
+  "sex": "FEMALE",
+  "tags": [
+   "early_stage",
+   "biomarker"
+  ],
+  "relevant_if": "Triple-negative early breast cancer trial in the neoadjuvant (before surgery) or untreated early setting.",
+  "not_relevant_if": "Metastatic-only, previously treated, HR+ or HER2+ only, or another cancer."
+ },
+ {
+  "id": "P05",
+  "text": "Man with ER-positive, HER2-negative breast cancer, stage III, surgery finished, deciding about adjuvant treatment.",
+  "age": 66,
+  "sex": "MALE",
+  "tags": [
+   "rare",
+   "early_stage"
+  ],
+  "relevant_if": "Breast cancer trial that accepts male patients and fits adjuvant HR+/HER2- early or locally advanced disease.",
+  "not_relevant_if": "Trials limited to female patients (filtered out), metastatic-only, or another cancer."
+ },
+ {
+  "id": "P06",
+  "text": "Stage IV lung adenocarcinoma with an EGFR exon 19 deletion that has progressed on osimertinib.",
+  "age": 59,
+  "sex": "FEMALE",
+  "tags": [
+   "prior_treatment",
+   "biomarker",
+   "advanced"
+  ],
+  "relevant_if": "EGFR-mutant NSCLC trial for progression after a third-generation EGFR inhibitor such as osimertinib.",
+  "not_relevant_if": "First-line EGFR trials requiring no prior EGFR-TKI, other biomarkers only, early-stage, or another cancer."
+ },
+ {
+  "id": "P07",
+  "text": "Newly diagnosed metastatic non-small cell lung cancer with an ALK rearrangement, no prior treatment.",
+  "age": 44,
+  "sex": "MALE",
+  "tags": [
+   "biomarker",
+   "first_line"
+  ],
+  "relevant_if": "ALK-positive NSCLC trial open to untreated metastatic patients.",
+  "not_relevant_if": "Requires prior ALK inhibitor, other biomarkers only, early-stage, or another cancer."
+ },
+ {
+  "id": "P08",
+  "text": "Metastatic non-small cell lung cancer with a KRAS G12C mutation, progressed after platinum chemotherapy and pembrolizumab.",
+  "age": 68,
+  "sex": "MALE",
+  "tags": [
+   "prior_treatment",
+   "biomarker",
+   "advanced"
+  ],
+  "relevant_if": "KRAS G12C NSCLC trial for patients after chemotherapy and immunotherapy, or general NSCLC trial allowing that setting.",
+  "not_relevant_if": "First-line only, a different driver mutation required, early-stage, or another cancer."
+ },
+ {
+  "id": "P09",
+  "text": "Extensive-stage small cell lung cancer that relapsed after carboplatin, etoposide and atezolizumab.",
+  "age": 71,
+  "sex": "MALE",
+  "tags": [
+   "prior_treatment",
+   "advanced"
+  ],
+  "relevant_if": "Relapsed/refractory extensive-stage SCLC trial (second line or later).",
+  "not_relevant_if": "Limited-stage or first-line only, non-small-cell lung cancer only, or another cancer."
+ },
+ {
+  "id": "P10",
+  "text": "Lung cancer that has spread to my brain. I never smoked and I take a targeted pill.",
+  "age": 57,
+  "sex": "FEMALE",
+  "tags": [
+   "lay_language",
+   "biomarker",
+   "advanced"
+  ],
+  "relevant_if": "NSCLC trial open to brain metastases, ideally for targeted-therapy (EGFR/ALK) patients.",
+  "not_relevant_if": "Brain tumours without lung primary, small-cell only without relevance, excludes brain metastases, or another cancer."
+ },
+ {
+  "id": "P11",
+  "text": "Metastatic colorectal cancer that is MSI-high (mismatch repair deficient). No treatment for metastatic disease yet.",
+  "age": 63,
+  "sex": "FEMALE",
+  "tags": [
+   "biomarker",
+   "first_line",
+   "advanced"
+  ],
+  "relevant_if": "MSI-H/dMMR metastatic colorectal cancer trial open to untreated patients, or MSS/MSI-agnostic first-line trials that do not exclude MSI-H.",
+  "not_relevant_if": "MSS-only trials, requires prior therapy, early-stage, or another cancer."
+ },
+ {
+  "id": "P12",
+  "text": "Metastatic colorectal cancer with a BRAF V600E mutation, after FOLFOX and FOLFIRI.",
+  "age": 58,
+  "sex": "MALE",
+  "tags": [
+   "prior_treatment",
+   "biomarker",
+   "advanced"
+  ],
+  "relevant_if": "BRAF V600E colorectal cancer trial for previously treated patients, or later-line colorectal trials not excluding BRAF.",
+  "not_relevant_if": "First-line only, requires wild-type BRAF/RAS, early-stage, or another cancer."
+ },
+ {
+  "id": "P13",
+  "text": "Locally advanced rectal cancer, stage III, before any treatment. I would like options that might avoid surgery.",
+  "age": 52,
+  "sex": "MALE",
+  "tags": [
+   "lay_language",
+   "early_stage"
+  ],
+  "relevant_if": "Locally advanced rectal cancer trial in the untreated setting, including organ-preservation / total neoadjuvant therapy.",
+  "not_relevant_if": "Metastatic-only, previously treated, colon-only, or another cancer."
+ },
+ {
+  "id": "P14",
+  "text": "Metastatic castration-resistant prostate cancer that progressed on enzalutamide. No chemotherapy so far.",
+  "age": 73,
+  "sex": "MALE",
+  "tags": [
+   "prior_treatment",
+   "advanced"
+  ],
+  "relevant_if": "mCRPC trial for patients after an androgen-receptor pathway inhibitor and before (or allowing no) chemotherapy.",
+  "not_relevant_if": "Hormone-sensitive only, requires prior docetaxel when the patient has none, localized disease, or another cancer."
+ },
+ {
+  "id": "P15",
+  "text": "Newly diagnosed metastatic hormone-sensitive prostate cancer. Androgen deprivation was started two months ago, nothing else.",
+  "age": 68,
+  "sex": "MALE",
+  "tags": [
+   "first_line",
+   "advanced"
+  ],
+  "relevant_if": "Metastatic hormone-sensitive prostate cancer trial open to patients just starting systemic therapy.",
+  "not_relevant_if": "Castration-resistant only, localized disease, requires extensive prior therapy, or another cancer."
+ },
+ {
+  "id": "P16",
+  "text": "Platinum-resistant high-grade serous ovarian cancer after three prior lines of treatment.",
+  "age": 60,
+  "sex": "FEMALE",
+  "tags": [
+   "prior_treatment",
+   "advanced"
+  ],
+  "relevant_if": "Platinum-resistant ovarian cancer trial allowing heavily pretreated patients.",
+  "not_relevant_if": "Platinum-sensitive or first-line only, limits prior lines below three, or another cancer."
+ },
+ {
+  "id": "P17",
+  "text": "BRCA1-mutated advanced ovarian cancer. Finished first-line platinum chemotherapy with a complete response and is looking at maintenance treatment.",
+  "age": 55,
+  "sex": "FEMALE",
+  "tags": [
+   "prior_treatment",
+   "biomarker"
+  ],
+  "relevant_if": "Ovarian cancer maintenance trial after response to first-line platinum, BRCA-mutated or biomarker-agnostic.",
+  "not_relevant_if": "Platinum-resistant/relapsed treatment trials, newly diagnosed untreated only, or another cancer."
+ },
+ {
+  "id": "P18",
+  "text": "BRAF V600E-mutant metastatic melanoma that progressed on nivolumab plus ipilimumab.",
+  "age": 47,
+  "sex": "MALE",
+  "tags": [
+   "prior_treatment",
+   "biomarker",
+   "advanced"
+  ],
+  "relevant_if": "Advanced melanoma trial for patients after anti-PD-1 therapy, BRAF-mutant or allowing BRAF-mutant.",
+  "not_relevant_if": "Treatment-naive only, adjuvant/early-stage, BRAF wild-type required, uveal-only, or another cancer."
+ },
+ {
+  "id": "P19",
+  "text": "Relapsed acute myeloid leukemia with an FLT3-ITD mutation, after standard induction chemotherapy.",
+  "age": 52,
+  "sex": "FEMALE",
+  "tags": [
+   "prior_treatment",
+   "biomarker"
+  ],
+  "relevant_if": "Relapsed/refractory AML trial, FLT3-targeted or open to FLT3-mutated patients.",
+  "not_relevant_if": "Newly diagnosed only, other leukemias only, requires FLT3 wild-type, or another cancer."
+ },
+ {
+  "id": "P20",
+  "text": "Newly diagnosed acute myeloid leukemia. Too frail for intensive chemotherapy.",
+  "age": 78,
+  "sex": "MALE",
+  "tags": [
+   "first_line",
+   "comorbidity"
+  ],
+  "relevant_if": "Newly diagnosed AML trial for patients unfit for intensive chemotherapy (for example venetoclax plus azacitidine settings).",
+  "not_relevant_if": "Relapsed only, intensive-chemotherapy-fit only, other leukemias, or another cancer."
+ },
+ {
+  "id": "P21",
+  "text": "Relapsed and refractory multiple myeloma after lenalidomide, bortezomib and daratumumab. No CAR-T before.",
+  "age": 65,
+  "sex": "FEMALE",
+  "tags": [
+   "prior_treatment",
+   "advanced"
+  ],
+  "relevant_if": "Relapsed/refractory multiple myeloma trial for triple-class exposed patients, CAR-T/bispecific or similar.",
+  "not_relevant_if": "Newly diagnosed only, requires prior CAR-T, smouldering myeloma, or another cancer."
+ },
+ {
+  "id": "P22",
+  "text": "Diffuse large B-cell lymphoma that relapsed after R-CHOP. Not a candidate for stem cell transplant.",
+  "age": 70,
+  "sex": "MALE",
+  "tags": [
+   "prior_treatment",
+   "advanced"
+  ],
+  "relevant_if": "Relapsed/refractory DLBCL trial that includes transplant-ineligible patients.",
+  "not_relevant_if": "Newly diagnosed only, requires transplant eligibility, other lymphomas only, or another cancer."
+ },
+ {
+  "id": "P23",
+  "text": "Intrahepatic cholangiocarcinoma with an FGFR2 fusion, progressed after gemcitabine and cisplatin.",
+  "age": 57,
+  "sex": "FEMALE",
+  "tags": [
+   "prior_treatment",
+   "biomarker",
+   "rare"
+  ],
+  "relevant_if": "Biliary tract/cholangiocarcinoma trial for previously treated patients, FGFR2-targeted or allowing it.",
+  "not_relevant_if": "First-line only, other biomarkers required, hepatocellular carcinoma only, or another cancer."
+ },
+ {
+  "id": "P24",
+  "text": "Glioblastoma that came back after surgery, radiation and temozolomide.",
+  "age": 50,
+  "sex": "MALE",
+  "tags": [
+   "prior_treatment",
+   "rare"
+  ],
+  "relevant_if": "Recurrent glioblastoma trial after standard chemoradiation.",
+  "not_relevant_if": "Newly diagnosed only, low-grade glioma only, brain metastases only, or another cancer."
+ },
+ {
+  "id": "P25",
+  "text": "Newly diagnosed metastatic pancreatic cancer. No treatment yet and good performance status.",
+  "age": 62,
+  "sex": "FEMALE",
+  "tags": [
+   "first_line",
+   "advanced"
+  ],
+  "relevant_if": "Metastatic pancreatic cancer trial open to untreated (first-line) patients.",
+  "not_relevant_if": "Requires prior therapy (second line or later), resectable/adjuvant only, or another cancer."
+ },
+ {
+  "id": "P26",
+  "text": "Advanced clear cell kidney cancer that progressed after nivolumab plus cabozantinib.",
+  "age": 61,
+  "sex": "FEMALE",
+  "tags": [
+   "prior_treatment",
+   "advanced"
+  ],
+  "relevant_if": "Advanced renal cell carcinoma trial for patients after immunotherapy and a VEGF inhibitor.",
+  "not_relevant_if": "Treatment-naive only, non-clear-cell only, adjuvant/localized, or another cancer."
+ },
+ {
+  "id": "P27",
+  "text": "Metastatic urothelial bladder cancer previously treated with platinum chemotherapy and enfortumab vedotin.",
+  "age": 72,
+  "sex": "MALE",
+  "tags": [
+   "prior_treatment",
+   "advanced"
+  ],
+  "relevant_if": "Advanced/metastatic urothelial cancer trial for patients after platinum and EV (third line or allowing prior EV).",
+  "not_relevant_if": "First-line or EV-naive only, non-muscle-invasive only, or another cancer."
+ },
+ {
+  "id": "P28",
+  "text": "Advanced gastric cancer that is Claudin 18.2 positive and HER2 negative. No treatment for advanced disease yet.",
+  "age": 64,
+  "sex": "MALE",
+  "tags": [
+   "biomarker",
+   "first_line",
+   "advanced"
+  ],
+  "relevant_if": "Claudin 18.2-positive (or biomarker-open) first-line advanced gastric/GEJ trial, HER2-negative.",
+  "not_relevant_if": "HER2-positive only, previously treated only, early-stage, or another cancer."
+ },
+ {
+  "id": "P29",
+  "text": "Recurrent, metastatic head and neck squamous cell carcinoma, HPV negative, progressed after cisplatin and pembrolizumab.",
+  "age": 60,
+  "sex": "MALE",
+  "tags": [
+   "prior_treatment",
+   "advanced"
+  ],
+  "relevant_if": "Recurrent/metastatic HNSCC trial for patients after platinum and anti-PD-1 therapy.",
+  "not_relevant_if": "First-line only, locally advanced curative-intent only, HPV-positive only, or another cancer."
+ },
+ {
+  "id": "P30",
+  "text": "Four-year-old girl with newly diagnosed high-risk neuroblastoma. No treatment so far.",
+  "age": 4,
+  "sex": "FEMALE",
+  "tags": [
+   "pediatric",
+   "rare",
+   "first_line"
+  ],
+  "relevant_if": "High-risk neuroblastoma trial for newly diagnosed children.",
+  "not_relevant_if": "Adult-only trials, relapsed-only, low/intermediate-risk only, or another cancer."
+ }
+]

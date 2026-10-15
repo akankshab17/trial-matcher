@@ -39,6 +39,8 @@ set -a; source .env; set +a
 .venv/bin/python -m trial_matcher.embed_trials --limit 100  # embed trials (default model bge-small); omit --limit for all
 .venv/bin/python -m trial_matcher.search "breast cancer HER2 positive" --age 58 --sex FEMALE   # try hybrid search by hand
 .venv/bin/python -m pytest -m slow                          # also loads the real embedding model (downloads it once)
+.venv/bin/python -m trial_matcher.evaluate run --out evals/results/NAME.txt   # retrieval eval (see evals/README.md)
+.venv/bin/python -m trial_matcher.evaluate status                           # label review progress
 .venv/bin/python scripts/criteria_fallback_stats.py         # criteria-splitter fallback rates
 ```
 
