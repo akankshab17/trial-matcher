@@ -30,12 +30,13 @@ Adjust this section as the structure becomes real; keep it accurate.
 
 ## Commands
 
-Fill in as they are created; keep this list current.
-
 ```
-docker compose up -d db      # start Postgres + pgvector
-pytest                       # run tests
-pytest evals/                # (or the eval runner) measure on the eval set
+docker compose up -d db                    # start Postgres + pgvector
+./scripts/migrate.sh                       # apply migrations/*.sql (idempotent)
+.venv/bin/python -m pytest                 # tests (DB tests use a throwaway Postgres via pgserver)
+set -a; source .env; set +a
+.venv/bin/python -m trial_matcher.ingest --max-trials 100   # small ingest; omit flag for all trials
+.venv/bin/python scripts/criteria_fallback_stats.py         # criteria-splitter fallback rates
 ```
 
 ## Conventions

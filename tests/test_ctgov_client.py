@@ -140,3 +140,22 @@ def test_client_errors_are_not_retried():
     with pytest.raises(CTGovError, match="400"):
         list(client.iter_studies())
     assert len(calls) == 1 and sleeps == []
+
+
+def test_iter_pages_yields_one_list_per_page():
+    client, _ = make_client(paging_handler([]))
+    pages = list(client.iter_pages())
+    assert [len(p) for p in pages] == [len(PAGE_1["studies"]), len(LAST_PAGE["studies"])]
+
+
+def test_iter_pages_trims_the_last_page_to_max_trials():
+    client, _ = make_client(paging_handler([]))
+    pages = list(client.iter_pages(max_trials=len(PAGE_1["studies"]) + 1))
+    assert sum(len(p) for p in pages) == len(PAGE_1["studies"]) + 1
+
+
+def test_max_trials_zero_makes_no_requests():
+    requests = []
+    client, _ = make_client(paging_handler(requests))
+    assert list(client.iter_pages(max_trials=0)) == []
+    assert requests == []

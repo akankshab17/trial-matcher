@@ -94,18 +94,25 @@ class CTGovClient:
             params["pageToken"] = page_token
         return self._get(params)
 
-    def iter_studies(self, max_trials: int | None = None) -> Iterator[dict]:
-        """Yield raw study dicts page by page, stopping at max_trials or the last page."""
+    def iter_pages(self, max_trials: int | None = None) -> Iterator[list[dict]]:
+        """Yield one list of raw study dicts per API page, stopping at max_trials or the last page."""
+        if max_trials is not None and max_trials <= 0:
+            return
         yielded = 0
         token = None
         while True:
-            page = self.fetch_page(token)
-            for study in page.get("studies", []):
-                if max_trials is not None and yielded >= max_trials:
-                    return
-                yield study
-                yielded += 1
-            token = page.get("nextPageToken")
+            data = self.fetch_page(token)
+            page, token = data.get("studies", []), data.get("nextPageToken")
+            if max_trials is not None:
+                page = page[: max_trials - yielded]
+            yielded += len(page)
+            if page:
+                yield page
             if not token or (max_trials is not None and yielded >= max_trials):
                 return
             self._sleep(self.delay)
+
+    def iter_studies(self, max_trials: int | None = None) -> Iterator[dict]:
+        """Yield raw study dicts one by one (same paging as iter_pages)."""
+        for page in self.iter_pages(max_trials):
+            yield from page
