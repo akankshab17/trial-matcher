@@ -133,3 +133,31 @@ def test_full_ingest_end_to_end_is_idempotent(conn):
     assert count(conn, "ingest_runs") == 2
     assert conn.execute("SELECT status, trials_stored, trials_skipped FROM ingest_runs ORDER BY id DESC").fetchone() == ("done", 5, 1)
     assert count(conn, "criteria") == stats.criteria
+
+
+# --- full-text column added in migration 003 --------------------------------
+
+
+def fts_ids(conn, query):
+    return [r[0] for r in conn.execute(
+        "SELECT nct_id FROM trials WHERE search_tsv @@ to_tsquery('english', %s) ORDER BY nct_id", (query,))]
+
+
+def test_search_tsv_covers_title_conditions_and_interventions_with_stemming(conn):
+    store = PostgresStore(conn)
+    s = study("NCT1", title="A phase 2 study")
+    s["protocolSection"]["conditionsModule"] = {"conditions": ["Breast Neoplasms"]}
+    s["protocolSection"]["armsInterventionsModule"] = {"interventions": [{"name": "Trastuzumab"}]}
+    save(store, s)
+    save(store, study("NCT2", title="Melanoma immunotherapy"))
+    assert fts_ids(conn, "neoplasm") == ["NCT1"]  # condition, stemmed
+    assert fts_ids(conn, "trastuzumab") == ["NCT1"]  # intervention
+    assert fts_ids(conn, "melanoma | trastuzumab") == ["NCT1", "NCT2"]  # OR query
+    assert fts_ids(conn, "pancreatic") == []
+
+
+def test_search_tsv_updates_when_a_trial_is_reingested(conn):
+    store = PostgresStore(conn)
+    save(store, study("NCT1", title="Old topic"))
+    save(store, study("NCT1", title="Glioblastoma"))
+    assert fts_ids(conn, "glioblastoma") == ["NCT1"] and fts_ids(conn, "topic") == []
