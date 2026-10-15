@@ -1,0 +1,110 @@
+{
+ "studies": [
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT06001788",
+     "briefTitle": "Safety and Tolerability of Ziftomenib Combinations in Patients With Relapsed/Refractory Acute Myeloid Leukemia"
+    },
+    "statusModule": {
+     "overallStatus": "RECRUITING",
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-20"
+     }
+    },
+    "conditionsModule": {
+     "conditions": [
+      "AML",
+      "AML With Mutated NPM1",
+      "Hematologic Malignancy",
+      "KMT2Ar",
+      "NPM1 Mutation",
+      "MLL Rearrangement",
+      "Leukemia",
+      "Acute Myeloid Leukemia",
+      "Leukemia, Myeloid",
+      "Leukemia, Myeloid, Acute",
+      "Acute Leukemia",
+      "Neoplasms by Histologic Type"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE1"
+     ]
+    },
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "name": "Ziftomenib"
+      },
+      {
+       "name": "Fludarabine"
+      },
+      {
+       "name": "Idarubicin"
+      },
+      {
+       "name": "Cytarabine"
+      },
+      {
+       "name": "Gilteritinib"
+      },
+      {
+       "name": "Granulocyte colony-stimulating factor"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Key Inclusion Criteria:\n\n* Has been diagnosed with relapsed/refractory AML.\n* Has a documented NPM1 mutation or KMT2A rearrangement.\n* Has a documented FLT3 mutation (cA-3 only).\n* Has an Eastern Cooperative Oncology Group (ECOG) Performance status ≤ 2.\n* Has adequate hepatic and renal function as defined per protocol.\n* Has an ejection fraction above a protocol defined limit.\n* Participant, or legally authorized representative, must be able to understand and provide written informed consent prior to the first screening procedure.\n* Has agreed to use contraception as defined per protocol.\n\nKey Exclusion Criteria:\n\n* Has a diagnosis of acute promyelocytic leukemia or blast chronic myeloid leukemia.\n* Has clinically active central nervous system leukemia.\n* Has an active and uncontrolled infection.\n* Has a mean corrected QT interval (QTcF) \\> 480ms.\n* Has uncontrolled intercurrent illness, including, but not limited to protocol defined cardiac disease.\n* Has received radiation, chemotherapy, immunotherapy, or any other anticancer therapy including investigational therapy \\<14 days or within 5 drug half-lives prior to the first dose of study intervention.\n* Has had major surgery within 4 weeks prior to the first dose of study intervention.\n* Has received a hematopoietic stem cell transplant (HSCT) and has not previously had adequate recovery per protocol defined criteria.\n* Has active graft-versus-host disease (GvHD) and or on immunosuppressive drugs for the treatment of GvHD\n* Participant is pregnant or lactating.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years"
+    }
+   }
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT07200427",
+     "briefTitle": "MELIORA Virtual Coach Intervention for Breast Cancer Prevention"
+    },
+    "statusModule": {
+     "overallStatus": "RECRUITING",
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-15"
+     }
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Breast Cancer Prevention"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ]
+    },
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "name": "MELIORA Virtual Coach Intervention"
+      },
+      {
+       "name": "Control (generic advice)"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\nMELIORA-HEALTHY study participants must meet all of the following criteria in order to be deemed eligible for study participation:\n\n* Reside in Greece, Lithuania, or Spain.\n* Be female and at least 18 years of age.\n* Have access to and be able to use a smartphone (iOS or Android) compatible with the MELIORA app.\n* Be willing and able to use the MELIORA app for the entire study duration.\n* Willing to provide informed consent to participate in the study.\n* Have at least one of the following behavioural or metabolic risk factors for BC, assessed in a random order (each site may determine the order that is most convenient for them) until eligibility is confirmed. If a risk factor is identified, the subsequent assessments can be skipped:\n* Increased alcohol consumption: More than 1 drink per day.\n* Increased body mass index (BMI): BMI ≥ 25 kg/m² or waist circumference ≥80 cm for normal weight individuals.\n* Physical inactivity: Not meeting World Health Organization (WHO) guidelines of at least 150 minutes of moderate-intensity or 75 minutes of high-intensity aerobic exercise per week during the last month.\n* Suboptimal diet: Low diet quality based on the rapid Prime Diet Quality Score Screener (rPDQS).\n\nMELIORA-PATIENTS study participants must meet all of the following criteria in order to be deemed eligible for study participation:\n\n* Reside in Spain or Lithuania.\n* Be female and at least 18 years old.\n* Have access to and be able to use a smartphone (iOS or Android) compatible with the MELIORA app.\n* Be willing and able to use the MELIORA app for the entire study duration.\n* Willing to provide informed consent to participate in the study.\n* Have been diagnosed with breast cancer (BC) within the last 6 months and/or currently undergoing treatment (chemotherapy, radiotherapy, immunotherapy, hormone therapy) and/or in active follow-up.\n* Have at least one of the following behavioural or metabolic risk factors for BC, assessed in a random order (each site may determine the order that is most convenient for them) until eligibility is confirmed. If a risk factor is identified, the subsequent assessments can be skipped:\n* Increased alcohol consumption: More than 1 drink per day.\n* Increased body mass index (BMI): BMI ≥ 25 kg/m² or waist circumference ≥80 cm for normal weight individuals.\n* Physical inactivity: Not meeting World Health Organization (WHO) guidelines of at least 150 minutes of moderate-intensity or 75 minutes of high-intensity aerobic exercise per week during the last month.\n* Suboptimal diet: Low diet quality based on the rapid Prime Diet Quality Score Screener (rPDQS).\n\nMELIORA-SURVIVORS study participants must meet all of the following criteria in order to be deemed eligible for study participation:\n\n* Reside in Spain, Lithuania, or Sweden.\n* Be female and at least 18 years old.\n* Have access to and be able to use a smartphone (iOS or Android) compatible with the MELIORA app.\n* Be willing and able to use the MELIORA app for the entire study duration.\n* Willing to provide informed consent to participate in the study.\n* Have completed primary treatment for breast cancer (surgery, chemotherapy, radiotherapy, immunotherapy, targeted therapy, etc.) and currently be in remission.\n* Be considered \"cancer-free\" according to their treating physician and may enter the study immediately following this diagnosis.\n* Ongoing adjuvant hormone therapy is permitted.\n* Have at least one of the following behavioural or metabolic risk factors for BC, assessed in a random order (each site may determine the order that is most convenient for them) until eligibility is confirmed. If a risk factor is identified, the subsequent assessments can be skipped:\n* Increased alcohol consumption: More than 1 drink per day.\n* Increased body mass index (BMI): BMI ≥ 25 kg/m² or waist circumference ≥80 cm for normal weight individuals.\n* Physical inactivity: Not meeting World Health Organization (WHO) guidelines of at least 150 minutes of moderate-intensity or 75 minutes of high-intensity aerobic exercise per week during the past month.\n* Suboptimal diet: Low diet quality based on the rapid Prime Diet Quality Score Screener (rPDQS).\n\nExclusion Criteria:\n\nMELIORA-HEALTHY study participants will be excluded from study participation if they meet any of the following criteria:\n\n* Inability to provide fully informed consent.\n* Inability to understand or communicate in the local language i.e. Greek in Greece, Lithuanian in Lithuania, Spanish in Spain.\n* Current or past diagnosis of cancer or other uncontrolled chronic diseases (e.g., cardiovascular disease, diabetes) that affect lifestyle, dietary habits, or communication skills.\n* Mental illness or disorders that affect lifestyle, dietary habits, or communication skills.\n* Use of medication that affects lifestyle, dietary habits, or communication skills.\n* Recreational drug use.\n* Pregnancy, lactation, or intention to become pregnant shortly before, during, or after the intervention.\n* Participation in another clinical trial or program aimed at promoting behavioural changes or weight loss at the time of recruitment. If subjects already use health-related apps that affect their weight and lifestyle, including dietary habits and physical activity, the research team will ask them to pause their use until the end of the 12-month study period. However, the use of these applications by the participants cannot be controlled.\n\nMELIORA PATIENTS and MELIORA SURVIVORS study participants will be excluded from study participation if they meet any of the following criteria:\n\n* Inability to provide fully informed consent.\n* Inability to understand or communicate in the local language (i.e., Lithuanian in Lithuania, Spanish in Spain, Swedish in Sweden), unless appropriate translation support is available to ensure full understanding of study procedures and informed consent.\n* Current or past diagnosis of cancer (other than breast cancer, except skin cancer treated with surgery only) or other uncontrolled chronic diseases (e.g., cardiovascular diseases, diabetes) that affect lifestyle, dietary habits, or communication skills.\n* Mental illness or disorders that affect lifestyle, dietary habits, and communication skills.\n* Use of medication that affects lifestyle, dietary habits, or communication skills.\n* Recreational drug use.\n* Pregnancy, lactation, or intention to become pregnant shortly before, during, or after the intervention.\n* Participation in another clinical trial or program to promote behavioural changes or weight loss during recruitment. Suppose participants are already using health-related apps affecting their weight and lifestyle, including dietary habits and physical activity. In that case, they will be asked to suspend their use until the end of the 12-month study period. However, the research team cannot control the use of these applications by the participants.\n* Severe adherence issues with previous treatments that may interfere with compliance with study tasks (subject to the investigator's assessment).",
+     "healthyVolunteers": true,
+     "sex": "FEMALE",
+     "minimumAge": "18 Years"
+    }
+   }
+  }
+ ],
+ "nextPageToken": "ZVNj7o2Elu8o3lpzBdv-p-numpOQJJxpZfip"
+}

@@ -1,0 +1,92 @@
+{
+ "studies": [
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT06647862",
+     "briefTitle": "IMM01+Azacitidine VS Placebo +Azacitidine in Patients With Newly Diagnosed Chronic Myelomonocytic Leukemia (CMML1-2)"
+    },
+    "statusModule": {
+     "overallStatus": "RECRUITING",
+     "lastUpdatePostDateStruct": {
+      "date": "2025-11-25"
+     }
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Chronic Myelomonocytic Leukemia"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE3"
+     ]
+    },
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "name": "IMM01"
+      },
+      {
+       "name": "Azacitidine"
+      },
+      {
+       "name": "Placebo"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥ 18 years old, regardless of gender;\n* Eastern Cooperative Oncology Group (ECOG) performance status score of 0-1.\n* Life expectancy ≥ 12 weeks;\n* Patients with CMML diagnosed according to WHO 2016 criteria, including CMML-1 and CMML-2;\n* White blood cell count ≤ 13×10⁹/L before the first treatment with the study drug (hydroxyurea and leukapheresis are allowed).\n* Patients must be treatment-naïve to any systemic agents for CMML (e.g., azacitidine, decitabine,chemotherapy\\<1 cycle, and the washout period should be more than 28 days, which is acceptable.), allogeneic stem cell transplant for CMML. Note: During screening and study participation, subjects may continue oral corticosteroids for diseases other than CMML (e.g. asthma) at a stable daily dose equivalent to ≤ 10 mg prednisone. In addition, supportive care in the form of blood transfusions or growth factors is not considered prior therapy in this case and is permitted prior to and as needed during the study.\n\nExclusion Criteria:\n\n* Previous treatment with anti-CD47 monoclonal antibody/SIRPα fusion protein;\n* History of allogeneic stem cell transplant and other organ transplants; Patients who have undergone autologous haematopoietic stem cell transplant;\n* Prior diagnosis of: therapy-related Myelodysplastic syndrome / Myeloproliferative neoplasm(MDS/MPN); MDS evolved from a pre-existing Myelodysplastic syndrome / Myeloproliferative neoplasm (MDS/MPN) ;other MDS/MPN including atypical chronic myeloid leukemia (aCML), juvenile myelomonocytic leukemia (JMML) and unclassifiable MDS/MPN. Patients positive for BCR-ABL fusion genes, PDGFRA, PDGFRB, and FGFR1 rearrangements need to be excluded;\n* Current or history of central nervous system (CNS) leukemia, extramedullary leukemia(excluding: Enlarged spleen, enlarged liver, enlarged lymph nodes), or myeloid sarcoma;\n* Diagnosis of other malignant neoplasms within 3 years prior to the first dose. Exceptions: a. Radically treated cervical carcinoma in situ or non-melanoma skin cancer,Surgery-cured prostate cancer and papillary thyroid cancer; b. a second primary cancer that has been curatively treated and has no recurrence within three years;",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years"
+    }
+   }
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT07431788",
+     "briefTitle": "The Effect of Uterine Manipulator Use During Abdominal Hysterectomy on Postoperative Sexual Function"
+    },
+    "statusModule": {
+     "overallStatus": "RECRUITING",
+     "lastUpdatePostDateStruct": {
+      "date": "2026-03-03"
+     }
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Leiomyoma (Uterine Fibroids)",
+      "Adenomyoma of Uterus",
+      "Uterine Bleeding"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ]
+    },
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "name": "Uterine Manipulator"
+      },
+      {
+       "name": "Conventional Abdominal Hysterectomy"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Women aged ≥18 years\n* Planned total abdominal hysterectomy for benign indications\n* Sexually active within the last 4 weeks\n* Able to complete the Female Sexual Function Index (FSFI) questionnaire\n* Provided written informed consent\n\nExclusion Criteria:\n\n* Gynecologic malignancy\n* Major additional pelvic reconstructive surgery\n* Severe psychiatric or neurologic disorder\n* Inability to complete follow-up assessments",
+     "healthyVolunteers": false,
+     "sex": "FEMALE",
+     "minimumAge": "18 Years"
+    }
+   }
+  }
+ ],
+ "nextPageToken": "ZVNj7o2Elu8o3lpzBdv-p-numpOQJJxqZPGp"
+}

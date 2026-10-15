@@ -1,0 +1,218 @@
+{
+ "studies": [
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT06647862",
+     "briefTitle": "IMM01+Azacitidine VS Placebo +Azacitidine in Patients With Newly Diagnosed Chronic Myelomonocytic Leukemia (CMML1-2)"
+    },
+    "statusModule": {
+     "overallStatus": "RECRUITING",
+     "lastUpdatePostDateStruct": {
+      "date": "2025-11-25"
+     }
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Chronic Myelomonocytic Leukemia"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE3"
+     ]
+    },
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "name": "IMM01"
+      },
+      {
+       "name": "Azacitidine"
+      },
+      {
+       "name": "Placebo"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥ 18 years old, regardless of gender;\n* Eastern Cooperative Oncology Group (ECOG) performance status score of 0-1.\n* Life expectancy ≥ 12 weeks;\n* Patients with CMML diagnosed according to WHO 2016 criteria, including CMML-1 and CMML-2;\n* White blood cell count ≤ 13×10⁹/L before the first treatment with the study drug (hydroxyurea and leukapheresis are allowed).\n* Patients must be treatment-naïve to any systemic agents for CMML (e.g., azacitidine, decitabine,chemotherapy\\<1 cycle, and the washout period should be more than 28 days, which is acceptable.), allogeneic stem cell transplant for CMML. Note: During screening and study participation, subjects may continue oral corticosteroids for diseases other than CMML (e.g. asthma) at a stable daily dose equivalent to ≤ 10 mg prednisone. In addition, supportive care in the form of blood transfusions or growth factors is not considered prior therapy in this case and is permitted prior to and as needed during the study.\n\nExclusion Criteria:\n\n* Previous treatment with anti-CD47 monoclonal antibody/SIRPα fusion protein;\n* History of allogeneic stem cell transplant and other organ transplants; Patients who have undergone autologous haematopoietic stem cell transplant;\n* Prior diagnosis of: therapy-related Myelodysplastic syndrome / Myeloproliferative neoplasm(MDS/MPN); MDS evolved from a pre-existing Myelodysplastic syndrome / Myeloproliferative neoplasm (MDS/MPN) ;other MDS/MPN including atypical chronic myeloid leukemia (aCML), juvenile myelomonocytic leukemia (JMML) and unclassifiable MDS/MPN. Patients positive for BCR-ABL fusion genes, PDGFRA, PDGFRB, and FGFR1 rearrangements need to be excluded;\n* Current or history of central nervous system (CNS) leukemia, extramedullary leukemia(excluding: Enlarged spleen, enlarged liver, enlarged lymph nodes), or myeloid sarcoma;\n* Diagnosis of other malignant neoplasms within 3 years prior to the first dose. Exceptions: a. Radically treated cervical carcinoma in situ or non-melanoma skin cancer,Surgery-cured prostate cancer and papillary thyroid cancer; b. a second primary cancer that has been curatively treated and has no recurrence within three years;",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years"
+    }
+   }
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT07118566",
+     "briefTitle": "Hyperthermia Combined With Immune Checkpoint Inhibitors in the Treatment of Advanced Gastrointestinal Malignancies With Liver Metastases"
+    },
+    "statusModule": {
+     "overallStatus": "NOT_YET_RECRUITING",
+     "lastUpdatePostDateStruct": {
+      "date": "2025-08-12"
+     }
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Gastrointestinal Cancer",
+      "Immunotherapy",
+      "Liver Metastasis"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE2"
+     ]
+    },
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "name": "Hyperthermia"
+      },
+      {
+       "name": "Immunotherapy"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n* Age between 18 and 75 years, male or female.\n* Histologically or cytologically confirmed diagnosis of gastrointestinal malignancy with liver metastases.\n* Prior treatment requirements:\n\nGastric cancer patients must have received at least one prior line of systemic therapy.\n\nColorectal cancer patients must have received at least two prior lines of systemic therapy.\n\n* Clinically assessed as suitable for hyperthermia combined with immune checkpoint inhibitor therapy.\n* At least one measurable lesion meeting RECIST 1.1 criteria.\n* Expected survival ≥6 months.\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0-1.\n* Adequate organ and bone marrow function.\n* Willingness to provide sufficient baseline and post-treatment samples, ability to comply with long-term follow-up and evaluation, and signed informed consent.\n* No prior history of other malignancies.\n\nExclusion Criteria:\n\n* Pregnant or lactating women.\n* Any comorbidities or underlying medical conditions that, in the investigator's judgment, render the patient unsuitable for study participation.\n* Presence of other severe physical or psychiatric disorders, or clinically significant laboratory abnormalities that may increase the risk associated with study participation, interfere with study results interpretation, or otherwise make the patient inappropriate for inclusion as determined by the investigator.",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "18 Years",
+     "maximumAge": "75 Years"
+    }
+   }
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT07358260",
+     "briefTitle": "B7-H3.CD28Z.CART in Solid Tumors"
+    },
+    "statusModule": {
+     "overallStatus": "RECRUITING",
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-03"
+     }
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Pediatric Solid Tumor",
+      "Neuroblastoma"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "PHASE1"
+     ]
+    },
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "name": "B7-H3.CD28Z.CART"
+      },
+      {
+       "name": "Fludarabine"
+      },
+      {
+       "name": "Cyclophosphamide"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\nEligibility Criteria for Prescreening\n\nPurpose of prescreening is to establish B7-H3 expression by IHC performed at Boston Children's Hospital. This can be performed at any time prior to completing the protocol screening process. Participants who meet the following criteria, will be offered participation in the full screening process and protocol enrollment, if eligible:\n\n* Participants must have histologically confirmed diagnosis of a solid tumor that is relapsed or refractory for which standard curative measures do not exist or are no longer effective.\n* Participant must have adequate pre-trial tumor material available to determine B7-H3 status. Tumor tissue from the most recent resection or biopsy of recurrent disease is preferred. If unavailable, tumor tissue from prior recurrences or from the time of initial diagnosis is acceptable.\n* Age \\>=9 months and \\<30 years.\n* Lansky/Karnofsky performance status ≥50% (see Appendix A)\n* Life expectancy of greater than 12 weeks\n* Participants who are screened for this trial should be reasonably anticipated to meet the eligibility criteria for enrollment described in Section 3.2 if their tumor is B7-H3-positive.\n* Ability to understand and/or the willingness of their parent or legally authorized representative to sign a written informed consent document for prescreening.\n\nEligibility Criteria for Enrollment The following criteria are required for initial study enrollment. Once enrolled, participants will need to meet specific criteria prior to lymphocyte apheresis, prior to the receipt of lymphodepletion chemotherapy and B7-H3.CD28Z.CART cell infusion as outlined in the Treatment Section of the Protocol.\n\nLaboratory tests required for eligibility must be completed within 28 days prior to the date of registration. Disease evaluation is required only if needed for eligibility.\n\nThe screening window is 28 days.\n\n* Participants must have histologically confirmed diagnosis of a solid tumor that is relapsed or refractory for which standard curative measures do not exist or are no longer effective.\n* Participants must have measurable or evaluable disease for dose escalation. For expansion phase, participants with neuroblastoma must have measurable or evaluable disease by INRC. Participants with other solid tumors must have measurable disease by RECIST1.1 for the expansion phase.\n* B7-H3 expression: Demonstration of B7-H3 expression with H score \\>100 by immunohistochemistry (IHC) is required by IHC performed at Boston Children's Hospital. Participants may choose to enroll on the prescreening portion, which allows for assessment of B7-H3 expression only, prior to enrollment on the full clinical trial as described in Section 3.1.\n* Age \\>=12 months and \\<30 years.\n* Lansky/Karnofsky performance status ≥50% (see APPENDIX A: PERFORMANCE STATUS SCALES/SCORES)\n* Life expectancy of greater than 12 weeks\n* Prior therapy:\n\nAt enrollment these criteria do not apply to participants with available leukapheresis products; however, participants must meet all other eligibility criteria and meet criteria to start lymphodepleting chemotherapy as outlined in Section 5.4.1.\n\nParticipants must have received prior radiation therapy and/or chemotherapy and recovered from all acute treatment-related toxicities of prior therapy prior to entering this study. There is no upper limit to the number of prior therapies allowed. Participants must be:\n\n* At least 1 week post any small port radiation therapy; at least 6 weeks from large field or other substantial bone marrow irradiation (craniospinal, whole abdomen, total lung, total body irradiation, \\>50% marrow).\n* At least 2 weeks since any prior myelosuppressive chemotherapy\n* At least 28 days from other investigational antineoplastic or disease-directed agents\n* At least 7 days from most recent myeloid growth factor, at least 14 days must have elapsed after receipt of pegfilgrastim.\n* At least 7 days from prior biologic antineoplastics, tyrosine kinase inhibitor, targeted agent or metronomic non-myelosuppressive chemotherapy.\n* At least 21 days or 5 half-lives, whichever is shorter, post any treatment with monoclonal antibodies (including checkpoint inhibitors and bevacizumab)\n* At least 7 days from dinutuximab treatment\n* At least 8 weeks from prior cellular therapy or vaccine therapy with recovery of associated toxicities. If prior CAR T cells, need documented lack of persistence of prior product.\n* At least 6 weeks post 131I-MIBG therapy or other radioisotope therapy\n* At least 6 weeks post autologous stem cell therapy infusion following myeloablative conditioning\n* Participants can be eligible after autologous stem cell infusion without myelosuppressive therapy at any time as long as other criteria are met.\n* At least 12 weeks post allogeneic stem cell transplant with no evidence of GVHD or ongoing toxicities.\n* Steroid use: Corticosteroids at or below physiologic doses (replacement therapy for management of pituitary/adrenal insufficiency) is allowed and/or topical administration (e.g. inhaled or dermatologic) is allowed. Hydrocortisone for blood product premedication is allowed.\n\n  * Participants must have normal marrow function as defined below: Values must be without transfusions or platelet growth factor within 7 days. Participants with known marrow involvement are exempt from these requirements.\n* hemoglobin ≥7.0g/dL\n* absolute neutrophil count ≥750/mcL\n* platelets ≥75,000/mcL\n\n  * Adequate renal function defined as creatinine below normal limits for age OR creatinine clearance (as estimated by Cockcroft Gault Equation for participants ≥ 18yo and Bedside Schwartz for participants \\<18yo) ≥70mL/min/1.73m2\n* Maximu Serum Creatinine (mg/dL)\n\n  * 6 months to 1 year: MALE = 0.5 FEMALE = 0.6\n  * 1 year \\< 2 years: MALE = 0.6 FEMALE = 0.6\n  * 2 year \\< 6 years: MALE = 0.8 FEMALE = 0.8\n  * 6 years \\< 10 years: MALE = 1 FEMALE = 1\n  * 10 years \\< 13 years: MALE = 1.2 FEMALE = 1.2\n  * 13 years \\< 16 years: MALE = 1.5 FEMALE = 1.4\n  * ≥16 years: MALE = 1.7 FEMALE = 1.4\n\n    * Adequate hepatic function\n* Serum ALT/AST \\<3.0X ULN\n* Total bilirubin \\< 3X ULN, except in participants with confirmed Gilbert's syndrome, where direct bilirubin must be \\<3X ULN.\n\n  * Adequate cardiac function\n* Ejection fraction ≥50% or fractional shortening ≥28%, measured by echocardiography\n\n  * Adequate pulmonary function\n* No evidence of dyspnea at rest\n* No exercise intolerance due to pulmonary insufficiency\n* Pulse oximetry \\>92% while breathing room air\n\n  * Females of childbearing potential must have a negative serum or urine pregnancy test\n  * The effects of B7-H3.CD28z.CART on the developing human fetus are unknown. For this reason and because other chemotherapeutic agents used in the study are known to be teratogenic, women of child-bearing potential and men must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry, for the duration of the study, and for 1 year after receiving the preparative lymphodepletion regimen or for as long as B7-H3.CD28z.CARTs are detectable in peripheral blood. Should a woman become pregnant or suspect she is pregnant while she or her partner is participating in this study, she should inform her treating physician immediately. Men treated or enrolled on this protocol must also agree to use adequate contraception prior to the study, and for 1 year after receiving the preparative lymphodepletion regimen or for as long as B7-H3.CD28z.CARTs are detectable in peripheral blood.\n  * Ability to understand and/or the willingness of their parent or legally authorized representative to sign a written informed consent document. Pediatric patients will be included in the consent discussion as age-appropriate and will provide written informed assent as applicable per institutional standard.\n\nExclusion Criteria:\n\n* Participants who are receiving any other investigational agents.\n* Participants with known current brain metastases or leptomeningeal disease. Prior CNS metastatic disease is allowable if prior resection and/or radiation occurred at least 8 weeks prior to enrollment, without any intervening CNS metastasis, progression or recurrence, and participants are clinically stable as evidenced by no requirements for corticosteroids, no evolving neurologic deficits, and no progression of residual brain abnormalities.\n* Participants with any prior immunodeficiency or history of autoimmune disease requiring systemic steroids/ immunosuppressive medication/ disease modifying agents within the last 2 years\n* Prior solid organ transplant. Prior allogeneic or autologous stem cell transplant is permitted as outlined in Section 3.2.\n* Active or uncontrolled viral, bacterial or fungal infection. Participants may be receiving ongoing therapy for controlled infection.\n* Participants with a known additional malignancy other than non-melanomatous skin cancer or carcinoma in situ, unless not requiring active treatment and stable or disease-free for at least 3 years.\n* CNS disorder such as cerebrovascular ischemia/hemorrhage, dementia, cerebellar disease, or autoimmune disease with CNS involvement that in the judgement of the investigator may impair the ability to evaluate neurotoxicity.\n* History of severe hypersensitivity reaction to compounds of similar chemical or biologic compositions to any agents used in the study or in the manufacturing of cells.\n* HIV/HBV/HCV infection: Participants are required to be negative for HIV Antibody or HIV viral load, negative for Hepatitis surface antigen (HbsAg) or viral load and negative for HCV antibody or HCV viral load. These participants are ineligible because of the potential for in vivo retroviral recombination events that could lead to replication-competent γ-retrovirus. A history of HIV, Hepatitis B, or Hepatitis C is permitted if the viral load is undetectable per quantitative PCR and/or nucleic acid testing.\n* Uncontrolled intercurrent illness including, but not limited to, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.\n* Pregnant women are excluded from this study because the effects of B7-H3.CD28Z.CART cells on the developing fetus are unknown and because chemotherapeutic agents with the potential for teratogenic or abortifacient effects are used in this study. Because there is an unknown but potential risk for adverse events in nursing infants, secondary to treatment of the mother with B7-H3.CD28Z.CART cells and chemotherapy, breastfeeding should be discontinued if the mother is treated with T cells on this study (NOTE: breast milk cannot be stored for future use while the mother is being treated on study).",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "9 Months",
+     "maximumAge": "30 Years"
+    }
+   }
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT07825935",
+     "briefTitle": "Individualized Drainage Strategy Based on Risk Stratification in Children Undergoing Surgery for Choledochal Cyst: A Prospective Randomized Controlled Trial"
+    },
+    "statusModule": {
+     "overallStatus": "NOT_YET_RECRUITING",
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-17"
+     }
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Children Following Robot-assisted Roux-en-Y Hepaticojejunostomy for Choledochal Cysts",
+      "Choledochal Cyst"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ]
+    },
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "name": "Robot-Assisted Roux-en-Y Hepaticojejunostomy with Drainage Management"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria: Age 0-18 years, with clinical and imaging diagnosis of choledochal cyst (Todani type I or IV)；Scheduled to undergo Da Vinci robot-assisted Roux-en-Y hepaticojejunostomy；Complete preoperative data available: cyst diameter, BMI, hemoglobin (HGB), globulin (GLB)；Preoperative predictive model applicable for risk probability calculation；Guardian provides signed informed consent Exclusion Criteria: Complex congenital biliary malformations or other severe congenital anomalies; Previous abdominal surgery history; Pre-existing severe coagulation disorders or active infection; Severe cardiac, pulmonary, hepatic, or renal insufficiency (ASA grade ≥IV); Cyst malignancy or suspected malignancy; Emergency surgery (e.g., cyst perforation, acute suppurative cholangitis); Guardian refuses participation or unable to comply with follow-up",
+     "healthyVolunteers": false,
+     "sex": "ALL",
+     "minimumAge": "1 Month",
+     "maximumAge": "18 Years"
+    }
+   }
+  },
+  {
+   "protocolSection": {
+    "identificationModule": {
+     "nctId": "NCT07850154",
+     "briefTitle": "Impact of Robotic Versus Endoscopic Surgery on Nipple Nerve Function Following Nipple-Sparing Mastectomy for Breast Cancer"
+    },
+    "statusModule": {
+     "overallStatus": "NOT_YET_RECRUITING",
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-30"
+     }
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Breast Neoplasms"
+     ]
+    },
+    "designModule": {
+     "studyType": "INTERVENTIONAL",
+     "phases": [
+      "NA"
+     ]
+    },
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "name": "Robotic-assisted nipple-sparing mastectomy"
+      },
+      {
+       "name": "Endoscopic-assisted nipple-sparing mastectomy"
+      }
+     ]
+    },
+    "eligibilityModule": {
+     "eligibilityCriteria": "Inclusion Criteria:\n\n1. Ductal carcinoma in situ (DCIS), or invasive breast cancer with clinical stage T1-T3, N0-N1 and no distant metastasis;\n2. Breast size ≤ cup C, without significant breast ptosis;\n3. Patients with high aesthetic requirements who elect single-incision robotic or endoscopic-assisted nipple-sparing mastectomy;\n4. Patients eligible for prophylactic mastectomy;\n5. Patients understand the study protocol and sign the written informed consent form.\n\nExclusion Criteria:\n\n1. Tumor invasion of the nipple-areola complex, skin, or chest wall;\n2. Inflammatory breast cancer;\n3. Patients with poor general condition who are unable to tolerate surgery.",
+     "healthyVolunteers": false,
+     "sex": "ALL"
+    }
+   }
+  }
+ ]
+}
